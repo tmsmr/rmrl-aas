@@ -2,7 +2,7 @@
 *reMarkable Rendering Library - as a Service*
 
 ## What is this?
-This is basically a wrapper for @rscholl's `rmrl` Python package (https://github.com/rschroll/rmrl) to make the `render` call available via HTTP. So, whole credits go to him - I just put things together 😀.
+This is basically a wrapper for [@rscholl](https://www.github.com/rscholl)'s `rmrl` Python package (https://github.com/rschroll/rmrl) to make the `render` call available via HTTP. So, whole credits go to him - I just put things together 😀.
 
 ## WARNING
 There are NO security checks / validations whatsoever. This service is NOT intended to be hosted publicly!
