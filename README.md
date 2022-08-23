@@ -15,6 +15,7 @@ There are NO security checks / validations whatsoever. This service is NOT inten
 ### Docker
 - Build image: `docker build -t rmrl-aas .`
 - Run: `docker run -d -p 127.0.0.1:8080:8080 rmrl-aas`
+- Or use the prebuilt image ([GitHub Workflow](.github/workflows/docker-publish.yml)): `docker run -d -p 127.0.0.1:8080:8080 ghcr.io/tmsmr/rmrl-aas:v0.2.1`
 
 ## Use
 `curl -X POST -F file=@xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx.zip localhost:8080/render -o xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx.pdf`
