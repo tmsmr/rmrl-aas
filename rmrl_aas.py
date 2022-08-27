@@ -28,7 +28,7 @@ def render():
     try:
         fpath = os.path.join(tmpdir, fname)
         upload.save(fpath)
-        pdfname = fname.strip('zip') + '.pdf'
+        pdfname = fname.strip('.zip') + '.pdf'
         return send_file(rmrl.render(fpath), download_name=pdfname)
     except Exception as e:
         logging.warning(e)
