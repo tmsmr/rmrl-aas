@@ -1,6 +1,10 @@
 # rmrl-aas
 *reMarkable Rendering Library - as a Service*
 
+
+[![Actions Status](https://github.com/tmsmr/rmrl-aas/workflows/Docker/badge.svg)](https://github.com/tmsmr/rmrl-aas/actions)
+
+
 ## What is this?
 This is basically a wrapper for [@rschroll](https://www.github.com/rschroll)'s `rmrl` Python package (https://github.com/rschroll/rmrl) to make the `render` call available via HTTP. So, whole credits go to him - I just put things together 😀.
 
